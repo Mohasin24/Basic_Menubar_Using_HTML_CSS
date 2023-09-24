@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: center;
+    font-size: 1.4rem;
+    border: 2px #333 solid;
+    border-radius: 2rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h2{
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0;
+}
+
+ul{
+    line-height: 5rem;
+    list-style-type: none;
+}
+
+li a{
+    border-top: 2px #333 solid;
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+li a:hover, li a:focus{
+    background-color: #333;
+    color: white;
+}
+
+li:last-child a{
+    border-radius: 0 0 2rem  2rem;
+}
+
+p{
+    padding: 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
